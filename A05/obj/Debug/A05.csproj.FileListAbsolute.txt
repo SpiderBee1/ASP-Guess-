@@ -1,0 +1,7 @@
+C:\LocalWebSite\A05\A05\bin\A05.dll.config
+C:\LocalWebSite\A05\A05\bin\A05.dll
+C:\LocalWebSite\A05\A05\bin\A05.pdb
+C:\LocalWebSite\A05\A05\obj\Debug\A05.csprojAssemblyReference.cache
+C:\LocalWebSite\A05\A05\obj\Debug\A05.csproj.CoreCompileInputs.cache
+C:\LocalWebSite\A05\A05\obj\Debug\A05.dll
+C:\LocalWebSite\A05\A05\obj\Debug\A05.pdb

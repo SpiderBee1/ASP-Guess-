@@ -1,0 +1,149 @@
+/*
+	FILE        : hilo-style.css
+	PROJECT     : WDD - Assignment 5
+	PROGRAMMER  : Matthew Goodman
+	DATE        : 2020-11-21
+	Description : this File defines the CSS styles for all the webpages
+	which are part of assignment 5 It features centered elements and
+	gentle gradients.
+	This stylesheet has been reused from my submission for assignment 4.
+*/
+
+/* Palette
+Purples: (dark to light)
+#230042 main content background
+#240046 dark header gradient
+#3c096c 
+#5a189a light header gradient
+#7b2cbf highlight text color
+#9d4edd 
+  
+#42f590 greenish blue for win page
+*/
+
+/* Custom Classes */
+
+.error {
+  color:    crimson;
+}
+
+/* new error class for validators, including <p> styling */
+.ASPError {
+	display: block;
+	margin: 0px;
+	padding: 10px;
+	line-height: 1.0;
+	font-size: 20px;
+	text-align: center;
+	color: crimson !important;
+}
+
+.PBox {
+  background-color: #230042;
+  vertical-align: 0px;
+}
+
+table.structure>tr>td{
+  padding:          30px;
+}
+
+/* element styles */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+    
+  font-family:      Verdana;
+	margin:           0px;
+  height: 100%;
+  /* 
+  This background uses the flipped diamonds pattern 
+  created by Steve Schoger on heropatterns.com
+  Use is licensed under CC by 4.0
+  */
+  background-color: #434343;  
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='40' viewBox='0 0 16 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23505050' fill-opacity='0.59' fill-rule='evenodd'%3E%3Cpath d='M8 0v20L0 10M16 0v10L8 0M16 10v10H8'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+h1 {
+  display:          block;
+  margin:           0px;
+  margin-bottom:    5px;
+  padding:          10px;
+  line-height:      1.0;
+  font-size:        20px;
+  text-align:       center;
+  letter-spacing:   1px;
+  font-weight:      bold;
+  color:            white;
+  background-color: #5a189a;
+  background-image: linear-gradient(to right, #5a189a, #240046);
+}
+
+h2 {
+  display:        block;
+  font-size:      1.5em;
+  margin-top:     0.83em;
+  margin-bottom:  0.83em;
+  margin-left:    0;
+  margin-right:   0;
+  font-weight:    bold;
+}
+
+p {
+  display:          block;
+  margin:           0px;
+  padding:          10px;
+  line-height:      1.0;
+  font-size:        20px;
+  text-align:       center;
+  color:            white;
+}
+
+span.purple {
+    color: #7b2cbf;
+    font-weight:    bold;
+}
+
+table {
+  padding: 0px;
+}
+
+td {
+  padding: 5px;
+}
+div td {
+  padding: 10px;
+}
+
+select, input[type="text"] {
+  font-size:    20px;
+  color: white;
+  background:   transparent;
+  padding: 5px;
+  border: 5px solid #7b2cbf;
+  border-radius: 5px;
+  
+}
+
+input[type="button"], input[type="submit"] {
+  color: white;
+  background:   #7b2cbf;
+  padding: 5px;
+  border: 5px solid #7b2cbf;
+  border-radius: 10px;
+  font-size:    20px;
+  
+}
